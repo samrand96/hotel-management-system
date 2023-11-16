@@ -17,7 +17,7 @@ This repository is a state-of-the-art Hotel Management System, a project develop
 1. **Golden Rules**: Make sure your environment is PHP (7.x preferred) and MySQL-friendly. Set up a web server (Apache, Nginx) to get your PHP game going.
 2. **Bring It Home**: Clone this repo and make it yours using `git clone.`
 3. **DB Ups and Downs**: Run the SQL script to make magic happen with your database setup.
-4. **Config Alert**: Don't forget to mingle with your database credentials in `dbconnection.php` within the `model` folder.
+4. **Config Alert**: Don't forget to mingle with your database credentials in `dbconnection.php` within the `model` folder. also When adding user details to the table, make sure to use the SHA1 hashing algorithm to encrypt the password before storing it in the password column. 
 
 --------------------------
 ## A Word of Advice
